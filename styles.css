@@ -473,11 +473,15 @@ display: flex;
 
     .header__img--wrapper {
         display: flex;
+        max-width: 128px;
+        display: flex;
+margin: 0 auto;
     }
 
+
     .header__img {
-        height: 100px;
-        width: 100px;
+        height: 100%;
+        width: 100%;
         margin: 0 auto;
         width: 100%;
 
