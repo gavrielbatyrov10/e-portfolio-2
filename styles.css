@@ -458,3 +458,8 @@ footer {
     }
 
 }
+@media (min-height: 800px) {
+    .header {
+      height: calc(100vh - 80px);
+    }
+    }
