@@ -466,9 +466,16 @@ display: flex;
     }
 
 }
-@media (min-height: 800px) {
+@media (max-height: 400px) {
     .header {
       height: calc(100vh + 80px);
+    }
+
+    .header__img {
+        width: 100%;
+        max-width: 158px;
+margin: 0  auto;
+display: flex;
     }
     }
 
