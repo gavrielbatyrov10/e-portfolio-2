@@ -466,13 +466,21 @@ display: flex;
     }
 
 }
-@media (max-height: 800px) {
+@media (max-height: 900px) {
     .header {
       height: calc(100vh + 80px);
     }
 
+    .header__img--wrapper {
+        display: flex;
+    }
+
     .header__img {
-     display: none;
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        width: 100%;
+
     }
     }
 
