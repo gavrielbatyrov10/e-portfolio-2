@@ -453,6 +453,14 @@ footer {
         width: 100%;
     }
 
+    .header__img {
+        z-index: 1;
+    }
+
+    .highlight__img {
+        z-index: 2;
+    }
+
     .highlight:not(:last-child) {
         margin-bottom: 24px;
     }
@@ -463,3 +471,5 @@ footer {
       height: calc(100vh - 80px);
     }
     }
+
+  
