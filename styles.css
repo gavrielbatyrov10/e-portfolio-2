@@ -472,10 +472,7 @@ display: flex;
     }
 
     .header__img {
-        width: 100%;
-        max-width: 158px;
-margin: 0  auto;
-display: flex;z-index: 1;
+     display: none;
     }
     }
 
