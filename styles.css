@@ -451,22 +451,14 @@ footer {
 
     .highlight {
         width: 100%;
-        z-index: 2;
+        z-index: 20;
     }
 
     .header__img {
-        margin: 36px;
         width: 100%;
-        z-index: 1;
-    }
-
-    .header__img--wrapper{
-        width: 100%;
-        z-index: 1;
-    }
-
-    .highlight__img {
-        z-index: 2;
+        max-width: 158px;
+margin: 0  auto;
+display: flex;
     }
 
     .highlight:not(:last-child) {
@@ -476,7 +468,7 @@ footer {
 }
 @media (min-height: 800px) {
     .header {
-      height: calc(100vh - 80px);
+      height: calc(100vh + 80px);
     }
     }
 
