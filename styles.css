@@ -466,26 +466,3 @@ display: flex;
     }
 
 }
-@media (max-height: 800px) {
-    .header {
-      height: calc(100vh + 80px);
-    }
-
-    .header__img--wrapper {
-        display: flex;
-        max-width: 128px;
-        display: flex;
-margin: 0 auto;
-    }
-
-
-    .header__img {
-        height: 100%;
-        width: 100%;
-        margin: 0 auto;
-        width: 100%;
-
-    }
-    }
-
-  
