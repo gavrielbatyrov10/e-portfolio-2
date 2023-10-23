@@ -225,7 +225,7 @@ header {
 
     /* Added this after the tutorial to 
   show it over the wave on larger screens */
-    z-index: 100;
+    z-index: 1;
 }
 
 .container {
@@ -517,6 +517,13 @@ select {
 @media (max-width: 550px) {
     .btn__menu {
         display: block;
+    }
+
+    .header__img--wrapper {
+        padding: 20px;
+    
+        /* Added this after the tutorial to 
+      show it over the wave on larger screens */
     }
 
     .nav__links {
